@@ -1,5 +1,5 @@
 mujoco-py==1.50.1.68
-torch==1.1.0
+torch==1.13.1
 gym==0.10.8
 tensorflow==1.12.0
 git+git://github.com/deepmind/dm_control.git@1038345fa347165b7e29fa677824b2e9ee87762f
@@ -14,3 +14,4 @@ pandas==0.24.1
 pathlib==1.0.1
 seaborn==0.9.0
 roboschool==1.0.38
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
